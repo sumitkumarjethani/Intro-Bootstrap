@@ -5,17 +5,17 @@
 .row-content {
   margin: 0px auto;
   padding: 50px 0px;
-  border-bottom: 1px ridge;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   min-height: 300px;
 }
 .footer {
   background-color: #D1C4E9;
   margin: 0px auto;
-  padding: 20px 20px;
+  padding: 20px 0px;
 }
 .jumbotron {
-  margin: 0px auto;
   padding: 70px 30px;
+  margin: 0px auto;
   background: #9575CD;
   color: floralwhite;
 }
@@ -41,13 +41,13 @@ body {
   background: #512DA8;
 }
 .carousel .carousel-item {
-  height: 300px;
+  height: 200px;
 }
-.carousel .carousel-item .img {
+.carousel .carousel-item img {
   position: absolute;
   top: 0;
   left: 0;
-  min-height: 300px;
+  min-height: 200px;
 }
 #carouselButton {
   right: 0px;
